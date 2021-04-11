@@ -9,8 +9,6 @@
             
             /* TODO: 
                 1. Create the three-box section. 
-
-                
              */
             }
 
@@ -43,6 +41,29 @@
                 transition: background-color 1s;
             }
 
+            .three-box-section {
+                background-color: white;
+                height: 50%;
+                display: flex;
+            }
+
+            .big-box {
+                background-color: red;
+                height: 100%;
+                width: 75%;
+            }
+
+            .box-small-top {
+                background-color: black;
+                height: 50%;
+                width: 25%;
+            }
+            .box-small-bottom {
+                background-color: aqua;
+                height: 50%;
+                width: 25%;
+            }
+
         </style>
     </head>
     <body>
@@ -55,5 +76,12 @@
                 <button class="btn">RESERVATIONS</button>
             </nav>
         </div>
+
+        <div class="three-box-section">
+            <div class="big-box"></div>
+            <div class="box-small-top"></div>
+            <div class="box-small-bottom"></div>
+        </div>
+
     </body>
 </html>
