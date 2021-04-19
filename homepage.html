@@ -42,26 +42,32 @@
             }
 
             .three-box-section {
-                background-color: white;
                 height: 50%;
                 display: flex;
             }
 
-            .big-box {
+            .left-box {
                 background-color: red;
                 height: 100%;
-                width: 75%;
+                width: 70%;
+                margin-right: 5%;
+            }
+
+            .right-box {
+                height: 100%;
+                width: 25%;
             }
 
             .box-small-top {
-                background-color: black;
-                height: 50%;
-                width: 25%;
+                background-color: lime;
+                height: 45%;
+                width: 100%;
+                /* margin-bottom: 10%; */
             }
             .box-small-bottom {
                 background-color: aqua;
-                height: 50%;
-                width: 25%;
+                height: 45%;
+                width: 100%;
             }
 
         </style>
@@ -78,9 +84,11 @@
         </div>
 
         <div class="three-box-section">
-            <div class="big-box"></div>
-            <div class="box-small-top"></div>
-            <div class="box-small-bottom"></div>
+            <div class="left-box"></div>
+            <div class="right-box">
+                <div class="box-small-top">$1.99</div>
+                <div class="box-small-bottom">$3.99</div>
+            </div> 
         </div>
 
     </body>
