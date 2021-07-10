@@ -13,20 +13,21 @@ nav {
 }
 
 body {
-    background-image: url(img1.jpg);
+    /* background-image: url(img1.jpg); */
     background-size: 100% 100%;
+    background-color: #a543ab;
     
 }
 
 button {
-    background-color: #f1c40f;
+    background-color: #ffc600;
     cursor: pointer;
     padding: 0 20px;
     height: 40px;
     font-size: 1em;
     font-weight: 900;
-    text-transform: 3px black solid;
-    border-radius: 2px;
+    text-transform: 3px black solid; 
+    border-radius: 0px;
 }
 
 button:hover {
@@ -48,6 +49,8 @@ button:hover {
     display: flex;
     justify-content: flex-start;
     align-items : center ;
+    margin-left: 35px;
+    font-weight: bold;
 }
 
 .right-box {
@@ -56,26 +59,29 @@ button:hover {
     display: flex;
     flex-direction: column ;
     justify-content: space-between;
+    margin-right: 35px;
 }
 
 .box-small-top {
-    background-color: lime;
+    background-color: #ffc600;
     height: 45%;
     width: 100%;
     font-size: 40px;
     display: flex;
     justify-content: center;
     align-items : center;
+   
 
 }
 .box-small-bottom {
-    background-color: aqua;
+    background-color: #ffc600;
     height: 45%;
     width: 100%;
     font-size: 40px;
     display: flex;
     justify-content: center;
     align-items : center;
+   
 }
 
 .bottom-four-box-section {
@@ -98,6 +104,8 @@ button:hover {
     font-size: 60px;
     font-weight: 300;
     flex-direction: column;
+    margin-left: 35px;
+    margin-right: 15px;
 }
 
 .box2 {
@@ -110,6 +118,8 @@ button:hover {
     font-size: 60px;
     font-weight: 300;
     flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .box3 {
     height: 100%;
@@ -121,6 +131,8 @@ button:hover {
     font-size: 60px;
     font-weight: 300;
     flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .box4 {
@@ -133,6 +145,8 @@ button:hover {
     font-size: 60px;
     font-weight: 300;
     flex-direction: column;
+    margin-left: 15px;
+    margin-right: 35px;
 }
 .font {
     font-size: 20px;
@@ -140,4 +154,7 @@ button:hover {
 }
 .font2 {
     font-size: 20px;
+    color: #00000080;
+    
 }
+
